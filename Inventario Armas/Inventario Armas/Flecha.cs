@@ -7,10 +7,12 @@ namespace Inventario_Armas
     class Flecha
     { 
         private float dmg;
+        private float precio;
 
-        public Flecha(float dmg)
+        public Flecha(float dmg, float precio)
         {
             this.dmg = dmg;
+            this.precio = precio;
         }
     }
 }
