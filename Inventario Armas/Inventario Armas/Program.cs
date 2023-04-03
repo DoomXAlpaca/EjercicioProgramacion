@@ -11,7 +11,7 @@ namespace Inventario_Armas
             Arma Arco = new Arco(8, 1, 50, "Arco Corto");
             Arma Pistola = new Pistola(15, 3, 100, "Revolver");
             Console.WriteLine("¿Qué deseas comprar?");
-            Console.WriteLine($"1.- Espada");
+            Console.WriteLine("1.- Espada");
             Console.WriteLine("2.- Arco");
             Console.WriteLine("3.- Pistola");
             Console.WriteLine("4.- Flecha");
