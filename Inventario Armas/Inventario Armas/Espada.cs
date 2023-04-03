@@ -6,20 +6,20 @@ namespace Inventario_Armas
 {
     class Espada : Arma
     {
-        private float dmg, aSpeed, price;
-        private string name;
+        private float dmg, aVelocidad, precio;
+        private string nombre;
 
-        public Espada(float dmg, float aSpeed,float price, string name)
+        public Espada(float dmg, float aVelocidad,float precio, string nombre)
         {
             this.dmg = dmg;
-            this.aSpeed = aSpeed;
-            this.price = price;
-            this.name = name;
+            this.aVelocidad = aVelocidad;
+            this.precio = precio;
+            this.nombre = nombre;
         }
 
         public override float DPS()
         {
-            return dmg * aSpeed;
+            return dmg * aVelocidad;
         }
         public void ShowStats()
         {

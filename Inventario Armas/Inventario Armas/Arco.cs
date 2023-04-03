@@ -6,20 +6,20 @@ namespace Inventario_Armas
 {
     class Arco: Arma
     {
-        private float dmg, aSpeed,precio;
-        private string name;
+        private float dmg, aVelocidad, precio;
+        private string nombre;
         private int flechas;
 
-        public Arco(float dmg, float aSpeed,float precio, string name, int flechas)
+        public Arco(float dmg, float aVelocidad,float precio, string nombre, int flechas)
         {
             this.dmg = dmg;
-            this.aSpeed = aSpeed;
+            this.aSpeed = aVelocidad;
             this.flechas = flechas;
         }
 
         public override float DPS()
         {
-            return dmg * aSpeed;
+            return dmg * aVelocidad;
         }
     }
 }
