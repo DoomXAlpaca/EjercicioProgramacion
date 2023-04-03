@@ -10,4 +10,5 @@ namespace Inventario_Armas
         {
             return 0;
         }
+    }
 }
