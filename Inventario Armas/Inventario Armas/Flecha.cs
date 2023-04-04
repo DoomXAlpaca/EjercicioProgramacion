@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Inventario_Armas
 {
-    class Flecha
+    class Flecha : Proyectil
     { 
         private float dmg;
         private float precio;

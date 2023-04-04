@@ -9,8 +9,8 @@ namespace Inventario_Armas
             int indice;
             Arma Espada = new Espada(10, 2, 50, "Espada de Hierro");
             Arma Hacha = new Hacha(30, 1, 70, "Hacha de Hierro");
-            Arma Arco = new Arco(8, 1, 50, "Arco Corto");
-            Arma Pistola = new Pistola(15, 3, 100, "Revolver");
+            Arma Arco = new Arco(8, 1, 50, "Arco Corto" , 0);
+            Arma Pistola = new Pistola(15, 3, 100, "Revolver" , 0);
             Console.WriteLine("¿Qué deseas comprar?");
             Console.WriteLine("1.- Espada");
             Console.WriteLine("2.- Arco");

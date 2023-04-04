@@ -13,7 +13,7 @@ namespace Inventario_Armas
         public Arco(float dmg, float aVelocidad,float precio, string nombre, int flechas)
         {
             this.dmg = dmg;
-            this.aSpeed = aVelocidad;
+            this.aVelocidad = aVelocidad;
             this.flechas = flechas;
         }
 

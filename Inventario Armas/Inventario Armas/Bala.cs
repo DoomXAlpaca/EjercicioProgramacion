@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Inventario_Armas
 {
-    class Bala
+    class Bala : Proyectil
     {
         private float dmg;
         private float precio;
