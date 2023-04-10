@@ -21,9 +21,6 @@ namespace Inventario_Armas
         {
             return dmg * aVelocidad;
         }
-        public void ShowStats()
-        {
-            
-        }
+      
     }
 }

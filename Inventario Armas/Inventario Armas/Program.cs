@@ -20,11 +20,26 @@ namespace Inventario_Armas
             Console.WriteLine("5.- Hacha");
 
             indice = Convert.ToInt32(Console.ReadLine());
-            switch(indice)
+
+
+            //void AgregarArma(List<Arma> inventario)
+            //{
+            //    Console.WriteLine("¿Qué tipo de arma desea agregar?");
+            //    Console.WriteLine("1. Arma de cuerpo a cuerpo");
+            //    Console.WriteLine("2. Arma a distancia")
+                    
+            //}
+            switch (indice)
             {
                 case 1:
-                    Console.WriteLine("");
-                     break;
+                    Console.WriteLine("Estas son las caracteristicas de la espada");
+                    Console.WriteLine(Espada.dmg);
+                    Console.WriteLine(Espada.aVelocidad);
+                    Console,writeLine(Espada.precio);
+
+                    break;
+                
+                   
             }
         }
     }
