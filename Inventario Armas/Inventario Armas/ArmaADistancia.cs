@@ -9,7 +9,7 @@ namespace Inventario_Armas
         public float dmg, aVelocidad, dmgproyectil;
         public override float DPS()
         {
-            return (dmg + dmgproyectil) / aVelocidad;
+            return (dmg + dmgproyectil) * aVelocidad;
         }
     }
 }

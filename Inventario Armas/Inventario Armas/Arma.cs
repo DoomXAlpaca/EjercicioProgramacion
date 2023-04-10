@@ -6,6 +6,8 @@ namespace Inventario_Armas
 {
     class Arma
     {
+        
+
         public virtual float DPS()
         {
             return 0;

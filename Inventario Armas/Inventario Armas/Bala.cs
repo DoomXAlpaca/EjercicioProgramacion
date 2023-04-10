@@ -8,11 +8,12 @@ namespace Inventario_Armas
     {
         public float dmg;
         public float precio;
-
-        public Bala (float dmg, float precio)
+        private string nombre;
+        public Bala (float dmg, float precio, string nombre)
         {
             this.dmg = dmg;
             this.precio = precio;
+            this.nombre = nombre;
         }
     }
 }
