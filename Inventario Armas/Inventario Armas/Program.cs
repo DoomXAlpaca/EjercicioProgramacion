@@ -38,8 +38,25 @@ namespace Inventario_Armas
                     Console,writeLine(Espada.precio);
 
                     break;
-                
-                   
+                case 2:
+                    
+                     break; 
+                  case 3 ;
+                    break;
+                    
+                case 4 ;
+                    break;
+
+                    case 5 ;
+                    Console.WriteLine("Estas son las caracteristicas de la Hacha");
+                    Console.WriteLine(Hacha.nombre);
+                    Console.WriteLine(Hacha.dmg);
+                    Console.WriteLine(Hacha.aVelocidad);
+                    Console,writeLine(Hacha.precio);
+                    break;
+
+
+
             }
         }
     }
