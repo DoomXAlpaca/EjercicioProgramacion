@@ -6,8 +6,8 @@ namespace Inventario_Armas
 {
     class Bala : Proyectil
     {
-        private float dmg;
-        private float precio;
+        public float dmg;
+        public float precio;
 
         public Bala (float dmg, float precio)
         {

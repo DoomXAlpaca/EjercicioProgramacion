@@ -4,11 +4,11 @@ using System.Text;
 
 namespace Inventario_Armas
 {
-    class Proyectil
+    class Proyectil : ArmaADistancia
     {
         public virtual float DMG ( )
         {
-            return;
+            return 0;
         }
     }
 }
